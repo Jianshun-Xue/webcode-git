@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color: rgb(42,61,79);
+    font-family: "楷体";
+    background-color:antiquewhite ;
+}
+.header{
+    width:100%;
+    height:150px;
+}
+#hi{
+    width: 100%;
+    height:150px;
+}
+.nav ul{
+    width: 100%;
+    padding:0px;
+    height:30px;
+    margin-bottom: 30px;
+}
+.nav ul li{
+    height:30px;
+    width:16.45%;
+    list-style:none;
+    float:left;
+    display: inline;
+    font:0.9em;
+}
+.nav ul li a{
+    text-align:center;
+    color: white;
+    font-size: large;
+    font-family: 楷体;
+    width:100%;
+    margin:0;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(87,156,241);
+    line-height:40px;
+    border-bottom:0px solid rgb(168,164,172);
+}
+.nav ul li a:hover{
+    color: rgb(0,0,0);
+    background-color: rgb(37,84,155);
+    border-bottom:3px solid rgb(16,4,28);
+}
+.footer{
+    margin-top: 10px;
+    clear:both;
+    width:100%;
+    height:70px;
+    background-color: rgb(87,156,241);
+    color:rgb(99,34,34);
+    font:initial 14px/20px 宋体;
+    text-align:center;
+}
+.footer p{
+    margin-top:10px;
+}
+#fi{
+    width:100px;
+    height:70px;
+    float:right;
+    padding:0;
+}}
+span{
+    /*>>>行内设置*/
+    float: right;
+}
+span p{/*>>>行内段落设置*/
+    font-size: small;
+}
+span a{/*链接设置*/
+    color: rgb(0, 0, 0);
+}
+span a:hover{/*鼠标划过时链接变化*/
+    color: rgb(77, 248, 10);
+}
+.zhuti h2{/*主体标题设置*/
+    color: red;
+    font-family: 楷体;/*字体样式*/
+    margin-top: 0px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+margin: 20px 200px;
+background-color: rgb(235, 225, 225);
+}
+#jigong{/*鸡公山介绍*/
+    margin-top: 0px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jigong p{
+    letter-spacing: 2px;/*字简介*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: small;
+ 
+}
+#jigong img{/*鸡公山图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#jigong img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#nanwan{/*南湾湖介绍*/
+    margin-top: 0px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#nanwan p{/*南湾湖段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: small;
+ 
+}
+#nanwan img{/*南湾湖图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#nanwan img:hover {/*南湾湖图片时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#lingshan{/*灵山介绍*/
+    margin-top: 0px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#lingshan p{/*灵山段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: small;
+ 
+}
+#lingshan img{/*灵山图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#lingshan img:hover {/*鼠标划过时灵山图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+.zhuti a{/*主体超链接设置*/
+    text-decoration: none;
+}

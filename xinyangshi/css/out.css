@@ -103,10 +103,11 @@ body{
     }
 }
 .zhuti{
-    margin:20px 100px 0px 100px;
+    display: flex;
+    margin:20px 20px;
 }
 #zhuti-left{
-    display: inline;
+   
     float:left;
     padding:5px;
     width:200px;
@@ -132,7 +133,7 @@ body{
     line-height:1.5em;
 }
 #zhuti-right{
-    display: inline;
+    flex: 1;
     float:right;
     width:800px;
     height:438px;
@@ -144,10 +145,11 @@ body{
     letter-spacing: 2px;
     text-indent: 2em;
     line-height: 1.5em;
+    
 }
 #zhuti-right img{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     border:2px #cc66 ridge;
 }
 #zhuti-right ul{
